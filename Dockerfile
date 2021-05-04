@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:14-alpine
 
 RUN apk update
 RUN apk -v --no-cache add bash git zip rsync openssh-client groff less python py-pip
